@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: nudttan91/ciscn_2023_unzip
+    ports:
+      - "80:80"
+    environment:
+      - FLAG=flag{0715ee62-9593-7bce-edf9-bdc6e1d6041d}
